@@ -135,12 +135,11 @@
     </ul>
     </div> 
   
-      <!-- 結果発表 -->
+    <!-- 結果発表 -->
     <form method="post" action="insert.php">
     <div id="a_01" style="display: none;">
     <h2>あなたにおすすめの温泉は...</h2>
-    <ul class="button01">
-    <input type="submit" value="結果を見る"></ul>
+    <button type="submit" class="button01" name="result">結果を見る</button>
     </div>
     </form>
 
