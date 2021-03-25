@@ -1,0 +1,33 @@
+  body{
+    text-align: center;
+  }
+  div{
+    font-size:larger;
+  }
+  h1 {
+    position: relative;
+    padding: 1rem 2rem calc(1rem + 10px);
+    background: #ffee00;
+    margin: 10px　5px　10px　5px;
+  }
+  h1:before {
+    position: absolute;
+    top: -7px;
+    left: -7px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    border: 4px solid #000;
+
+  }
+  .button{
+        border-radius: 5px;
+        padding: 0.5% 2% 0.5% 2%;
+        margin-bottom: 20px;
+      }
+  .button:hover {
+    background: #8a8a88;
+    color: #fff;
+  }
+
+  
